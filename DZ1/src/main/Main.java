@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
+/**
+ * Определить иерархию драгоценных и полудрагоценных камней.
+ * Отобрать камни для ожерелья. Подсчитать общий вес (в каратах) и стоимость.
+ * Провести сортировку камней ожерелья на основе ценности.
+ * Найти камни в ожерелье, соответствующие заданному диапазону параметров прозрачности.
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -45,7 +51,7 @@ public class Main {
                 return 0;
             }
         });
-        
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Задайте диапазон прозрачности камней от 1 до 4");
         start=scanner.nextInt();
